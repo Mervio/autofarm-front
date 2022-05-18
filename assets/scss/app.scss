@@ -1,0 +1,41 @@
+//Fonts
+@import "fonts/fonts";
+
+//Core Files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// Icons
+@import "icons/boxicons";
+@import "icons/dripicons";
+@import "icons/fontawesome-all";
+@import "icons/materialdesignicons";
+
+// Structure
+@import "structure/topbar";
+@import "structure/page-head";
+@import "structure/footer";
+@import "structure/right-sidebar";
+@import "structure/vertical";
+@import "structure/horizontal-nav";
+@import "structure/layouts";
+
+// Layouts
+@import "layouts/main";
+
+// Plugins
+@import "plugins/datatable";
+@import "plugins/responsive-table";
+@import "plugins/table-editable";
+
+
+// components
+@import "components/helper";
+@import "components/pagination";
+@import "components/breadcrumb";
+
+// Custom
+@import "./custom";
